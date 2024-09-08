@@ -1,0 +1,701 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 98rem;
+  margin: 0 auto;
+  padding: 0 2.2rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1400;
+  width: 100%;
+  height: 4.4rem;
+  background-color: rgba(0, 0, 0, 0.897);
+  backdrop-filter: blur(1rem);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0rem;
+}
+
+.nav-list-mobile {
+  display: none;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #ffffffa6;
+  padding: 1 3rem;
+  transition: opacity 0.7s;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.nav-link-apple {
+  width: 1.5rem;
+  height: 4.2rem;
+  background: url("images/icons//apple.svg") center no-repeat;
+}
+
+.nav-link-search {
+  width: 1.5rem;
+  height: 3rem;
+  background: url("images/icons//search.svg") center no-repeat;
+}
+
+.nav-link-bag {
+  width: 1.5rem;
+  height: 3rem;
+  background: url("images/icons//bag.svg") center no-repeat;
+}
+
+.video {
+  position: absolute;
+}
+
+.video-p {
+  align-items: center;
+  width: 630px;
+  margin-left: 160px;
+}
+
+.title {
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.title-dark {
+  color: #080808;
+  padding-top: 4rem;
+}
+
+.title-heading {
+  font-size: 5.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.001rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.title-heading-top {
+  font-size: 5.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.001rem;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 42.4rem;
+}
+
+.title-sub-heading {
+  font-size: 2.6rem;
+  margin-top: 0.1rem;
+  letter-spacing: 0.006rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.title-heading-watch {
+  height: 7.8rem;
+  background: url(images/hero/watch/logo_watch_large.png) center no-repeat;
+  background-size: auto 7.8rem;
+  margin-top: 1.6rem;
+}
+
+.title-price {
+  font-size: 3.8rem;
+  line-height: 1.1;
+  letter-spacing: -0.001rem;
+  text-align: left;
+  font-weight: 600;
+  padding-top: 4.9rem;
+  padding-left: 9.4rem;
+}
+
+.title-pricepp {
+  font-size: 3.8rem;
+  line-height: 1.1;
+  letter-spacing: -0.001rem;
+  text-align: left;
+  font-weight: 600;
+  padding-top: 4.9rem;
+  padding-left: 8rem;
+}
+
+.title-info {
+  font-size: 2.1rem;
+  margin-top: 0.1rem;
+  letter-spacing: 0.006rem;
+  font-weight: 400;
+  padding-right: 58rem;
+  margin-left: -8.8rem;
+}
+
+.title-info-pp {
+  font-size: 2.1rem;
+  margin-top: 0.1rem;
+  letter-spacing: 0.006rem;
+  font-weight: 400;
+  padding-right: 63rem;
+  margin-left: -5rem;
+}
+
+.title-info-pb {
+  color: #000;
+  font-size: 2.1rem;
+  margin-top: 0.1rem;
+  letter-spacing: 0.006rem;
+  font-weight: 400;
+  padding-right: 63rem;
+  margin-left: -5rem;
+}
+
+
+.title-pricepb {
+  color: #000;
+  font-size: 3.8rem;
+  line-height: 1.1;
+  letter-spacing: -0.001rem;
+  text-align: left;
+  font-weight: 600;
+  padding-top: 4.9rem;
+  padding-left: 3.5rem;
+}
+
+.title-info-p {
+  font-size: 2rem;
+  line-height: 1.1;
+  letter-spacing: -0.001rem;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 1.5rem;
+  padding-left: 65rem;
+  margin-top: -12rem;
+  margin-right: -2rem;
+}
+
+.title-post {
+  font-size: 3.8rem;
+  line-height: 1.1;
+  letter-spacing: -0.001rem;
+  text-align: right;
+  font-weight: 600;
+  padding-top: -20rem;
+  padding-right: 0.7rem;
+  color: #080808;
+  margin-top: -15.3rem;
+}
+
+.title-post-n {
+  font-size: 3.8rem;
+  line-height: 1.1;
+  letter-spacing: -0.001rem;
+  text-align: right;
+  font-weight: 600;
+  padding-top: -20rem;
+  color: #ffffff;
+  margin-top: -15.3rem;
+  margin-left: 65rem;
+  margin-right: 9rem;
+}
+
+.title-ad {
+  font-size: 2.1rem;
+  line-height: 1.1;
+  letter-spacing: -0.001rem;
+  text-align: right;
+  font-weight: 500;
+  padding-top: 4.9rem;
+  padding-right: 8rem;
+  color: #080808;
+  padding-top: 4rem;
+  margin-top: -3.5rem;
+}
+
+.title-adi {
+  font-size: 2.1rem;
+  line-height: 1.1;
+  letter-spacing: -0.001rem;
+  text-align: right;
+  font-weight: 500;
+  padding-top: 4.9rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  margin-top: -3.5rem;
+}
+
+.title-us {
+  font-size: 1.8rem;
+  line-height: 1.1;
+  letter-spacing: -0.001rem;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 3.5rem;
+  padding-left: 65rem;
+  color: #6e6e6e;
+  margin-top: -1.5rem;
+  margin-right: -2rem;
+}
+
+.img {
+  display: block;
+  margin: auto;
+}
+
+.imgm {
+  align-items: center;
+  margin-left: 230px;
+}
+
+.imgb {
+  position: absolute;
+  align-items: center;
+  margin: center;
+  margin-left: -4.5rem;
+  margin-top: -5rem;
+}
+
+.imgp {
+  position: absolute;
+  align-items: left;
+  margin-left: -172px;
+  width: 650px;
+  height: 590px;
+}
+
+.imga {
+  position: absolute;
+  margin-right: 80rem;
+  padding-left: 50.2rem;
+  width: 650px;
+  height: 590px;
+}
+.imgq {
+  position: absolute;
+  margin-top: -11rem;
+  margin-right: 80rem;
+  padding-left: 26.5rem;
+  width: 140px;
+  height: 55px;
+}
+
+.cta {
+  position: relative;
+  text-align: center;
+  margin-top: 1.8rem;
+}
+
+.cta-link {
+  color: #ffffff;
+  font-size: 1.7rem;
+  display: inline-block;
+  border: none;
+  background-color: #0d6bd8;
+  padding: 12px 23px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.cta-link-sp {
+  color: #ffffff;
+  font-size: 1.5rem;
+  display: inline-block;
+  border: none;
+  background-color: #0d6bd8;
+  padding: 11px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: -66rem;
+}
+.cta-link-ai {
+  color: #ffffff;
+  font-size: 1.5rem;
+  display: inline-block;
+  border: none;
+  background-color: #0d6bd8;
+  padding: 10px 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: -75rem;
+}
+.cta-link-ahi {
+  color: #ffffff;
+  font-size: 1.5rem;
+  display: inline-block;
+  border: none;
+  background-color: #0d6bd8;
+  padding: 10px 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 66rem;
+}
+
+.cta-link:nth-child(2) {
+  margin-left: 1.3rem;
+}
+
+.cta-link:hover {
+    opacity: 0.95;
+}
+.cta-link-sp:hover {
+  opacity: 0.95;
+}
+
+.cta-link-darker {
+    color: #0d6bd8;
+    font-size: 1.7rem;
+    display: inline-block;
+    border: 1.5px solid;
+    border-color: #0d6bd8;
+    background-color: #006fc900;
+    padding: 12px 23px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.cta-link-darker-sp {
+  color: #0d6bd8;
+  font-size: 1.5rem;
+  display: inline-block;
+  border: 1.5px solid;
+  border-color: #0d6bd8;
+  background-color: #006fc900;
+  padding: 11px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: -60rem;
+}
+
+.cta-link-darker-ai {
+  color: #0d6bd8;
+  font-size: 1.5rem;
+  display: inline-block;
+  background-color: #006fc900;
+  cursor: pointer;
+  margin-right: -144rem;
+}
+
+.cta-link-darker-aim {
+  color: #0d6bd8;
+  font-size: 1.5rem;
+  display: inline-block;
+  border: 1.5px solid;
+  border-color: #0d6bd8;
+  background-color: #006fc900;
+  padding: 11px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-right: -142rem;
+}
+
+.cta-link-darker:hover {
+  color: #ffff;
+  background-color: #0d6bd8;
+}
+.cta-link-darker-sp:hover {
+  color: #ffff;
+  background-color: #0d6bd8;
+}
+.cta-link-darker-ai:hover {
+  text-decoration:underline #0d6bd8;
+}
+.cta-link-darker-aim:hover {
+  color: #ffff;
+  background-color: #0d6bd8;
+}
+
+.hero {
+  height: 62.3rem;
+  background-size: auto 73.6rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 0.6rem solid #ffffff;
+  border-bottom: 0.6rem solid #ffffff;
+}
+
+.event {
+  border-top: none;
+  background-color: #000;
+}
+
+.mac {
+  background-color: #f8f2efc2;
+  height: 58.9rem;
+}
+
+.book {
+  background-color: #f8f2efc2;
+  height: 58.9rem;
+}
+
+.iphone {
+  background-color: #ffff;
+  height: 58.9rem;
+}
+
+.ipad {
+  background-color: #ffff;
+  height: 58.9rem;
+}
+
+.pro {
+  background-color: #ffff;
+  height: 58.9rem;
+}
+
+@media screen and (max-width: 1068px) {
+  .event {
+    background-color: #ffff;
+  }
+  .mac {
+    background-color: #cacaca;
+  }
+  .iphone-11 {
+    background: url(images/hero//iphone-11//iphone_11_medium.jpg);
+    background-color: #000;
+  }
+  .watch {
+    background: url(images/hero//watch/watch_medium.jpg);
+  }
+
+  .hero {
+    height: 65rem;
+    background-size: auto 69.8rem;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
+
+  .title-heading {
+    font-size: 4.4rem;
+  }
+  .title-sub-heading {
+    font-size: 2.4rem;
+  }
+
+  .cta-link:nth-child(2) {
+    margin-left: 2rem;
+  }
+  .title-heading-watch {
+    height: 6.2rem;
+    background: url(images/hero/watch/logo_watch_medium.png) center no-repeat;
+    background-size: auto 6.2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 4.8rem;
+    transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1),
+      height 0.56s cubic-bezier(0.32, 0.08, 0.24, 1);
+  }
+  header .container {
+    padding: 0;
+  }
+
+  .event {
+    margin-top: 4.1rem;
+  }
+
+  .nav-list {
+    margin-top: 0;
+  }
+  .nav-list-mobile {
+    display: flex;
+  }
+
+  .nav-item {
+    width: 4.8rem;
+    height: 4.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-item.hidden {
+    display: none;
+  }
+
+  .mobile-menu {
+    position: relative;
+    z-index: 1500;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .line {
+    position: absolute;
+    width: 1.7rem;
+    height: 1px;
+    background-color: #fff;
+    transition: margin-top 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+  }
+
+  .line-top {
+    margin-top: 3px;
+  }
+  .line-bottom {
+    margin-top: -0.4rem;
+  }
+
+  .active .line-top {
+    margin-top: 0;
+    transform: rotate(45deg);
+    transition: transform 0.3192s 0.1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+  }
+  .active .line-bottom {
+    margin-top: 0;
+    transform: rotate(-45deg);
+    transition: transform 0.3192s 0.1s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+  }
+
+  header.active {
+    height: 100%;
+    background-color: #000;
+  }
+
+  .nav-link-apple {
+    width: 1.8rem;
+    height: 4.8rem;
+    position: relative;
+    z-index: 1500;
+  }
+
+  .nav-link-bag {
+    width: 1.6rem;
+    height: 4.8rem;
+    transition: opacity 3s;
+  }
+
+  .nav {
+    position: relative;
+  }
+
+  .nav-link {
+    font-size: 1.7rem;
+    padding: 0;
+    margin: auto 0;
+  }
+
+  .nav-list-larger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    display: block;
+    padding: 10.5rem 5rem;
+    z-index: 1000;
+    box-sizing: border-box;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s;
+  }
+
+  .active .nav-list-larger {
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .active .nav-link-bag {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .nav-list-larger .nav-item {
+    width: 100%;
+    justify-content: flex-start;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  .nav-list-larger .nav-item:nth-child(9) {
+    border-bottom: none;
+  }
+
+  .active .nav-list-larger {
+    animation: fadeIn 1s ease-in;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .event {
+    background-color: #fff;
+  }
+  .mac {
+    background-color: #cacaca;
+  }
+  .iphone-11 {
+    background: url(images/hero//iphone-11//iphone_11_small.jpg);
+  }
+  .watch {
+    background: url(images/hero//watch/watch_small.jpg);
+  }
+  .hero {
+    height: 50rem;
+    background-size: auto 54.8rem;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
+
+  .title {
+    padding: 3.7rem;
+  }
+
+  .title-heading {
+    font-size: 3.2rem;
+  }
+  .title-sub-heading {
+    font-size: 1.9rem;
+  }
+
+  .title-heading-watch {
+    margin-top: -0.5rem;
+    margin-bottom: 0;
+  }
+
+  .title-price {
+    font-size: 1.4rem;
+  }
+
+  .cta {
+    margin-top: 0.7rem;
+  }
+
+  .cta-link {
+    font-size: 1.9rem;
+  }
+}
